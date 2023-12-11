@@ -2,7 +2,7 @@ $ORIGIN intensewebs.com.
 $TTL    604800
 ;
 @       IN      SOA     ns1.intensewebs.com. dns.intensewebs.com. (
-                             58         ; Serial
+                             60         ; Serial
                          604800         ; Refresh
                           86400         ; Retry
                         2419200         ; Expire
@@ -15,13 +15,12 @@ $TTL    604800
 ;
 alma1	IN	A	192.168.1.121
 git	IN	A	192.168.1.123
-ipa1	IN	A	192.168.1.124
-ipa2	IN	A	192.168.1.125
 pg	IN	A	192.168.1.126
 ;
 ns1	IN	A	192.168.1.140
 ns2	IN	A	192.168.1.141
 tdebian	IN	A	192.168.1.200
+tfedora	IN	A	192.168.1.202
 sd      IN      A       192.168.1.222
 superdog        IN      A       192.168.1.223
 ;

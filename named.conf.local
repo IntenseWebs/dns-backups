@@ -5,9 +5,9 @@ zone "intensewebs.com" {
 	also-notify { 192.168.1.141; };
 };
 
-zone "nukvm.org" {
+zone "corp.intensewebs.com" {
         type master;
-        file "/var/lib/bind/db.nukvm.org";
+        file "/var/lib/bind/db.corp.intensewebs.com";
         allow-transfer { 192.168.1.141; };
         also-notify { 192.168.1.141; };
 };
@@ -15,6 +15,13 @@ zone "nukvm.org" {
 zone "iweb.city" {
         type master;
         file "/var/lib/bind/db.iweb.city";
+        allow-transfer { 192.168.1.141; };
+        also-notify { 192.168.1.141; };
+};
+
+zone "nukvm.org" {
+        type master;
+        file "/var/lib/bind/db.nukvm.org";
         allow-transfer { 192.168.1.141; };
         also-notify { 192.168.1.141; };
 };
